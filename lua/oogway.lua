@@ -20,9 +20,9 @@ local wisdoms = {
     "If you only do what you can do, you will never be more than you are now.",
     "Who knows the ways of the universe? Accident? Or destiny? That is the secret.",
     "When the path you walk always leads back to yourself, you never get anywhere.",
-    "Maybe it can - if you are willing to guide it, to nurture it, to believe in it.",
+    "Maybe it can – if you are willing to guide it, to nurture it, to believe in it.",
     "Look at this tree. I cannot make it blossom when it suits me, nor make it bear fruit before its time.",
-    "Use your skills for good, young warrior. Find the one thing you were denied so long ago - compassion.",
+    "Use your skills for good, young warrior. Find the one thing you were denied so long ago – compassion.",
     "Yesterday is history, Tomorrow is a mystery, but today is a gift. That is why it is called the present.",
     "You must... believe. Promise me you'll believe.",
     "Shifu, an acorn can only become the mighty oak, not a cherry tree. You must let her grow into what she will be.",
@@ -149,7 +149,7 @@ local oogways = {
 -- Returns a random wisdom
 function M.what_is_your_wisdom()
     math.randomseed(os.time())
-    return '"' .. wisdoms[math.random(#wisdoms)] .. '" - Master Oogway'
+    return '"' .. wisdoms[math.random(#wisdoms)] .. '" – Master Oogway'
 end
 
 -- Returns a random image of the Master himself
