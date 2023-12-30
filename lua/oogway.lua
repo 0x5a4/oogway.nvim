@@ -134,4 +134,8 @@ function M.oogways()
     return oogways
 end
 
+function M.sense_the_dragon_warrior()
+    vim.notify(M.what_is_your_wisdom().."\n\n"..M.inspire_me())
+end
+
 return M

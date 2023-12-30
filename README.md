@@ -42,6 +42,9 @@ _There are no accidents._
 
   ```lua
   local oogway = require("oogway")
+  -- Do what the command does (print wisdom and image)
+  oogway.sense_the_dragon_warrior()
+
   -- Returns a random Oogway quote
   oogway.what_is_your_wisdom()
 
