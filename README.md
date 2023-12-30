@@ -57,3 +57,16 @@ _There are no accidents._
   -- Returns all possible images
   oogway.oogways()
   ```
+
+### Using with `folke/zen-mode.nvim`
+
+Dispense a wisdom every time you enter zen mode!
+
+```lua
+require("zen-mode").setup({
+    on_open = function()
+        require("oogway").sense_the_dragon_warrior()
+    end
+})
+
+```
