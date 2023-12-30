@@ -9,7 +9,7 @@ _There are no accidents._
 ## Features
 
 - Dispense **30** wisdoms that will surely help you find motivation again
-- Slack of at work by looking at **3** astonishing images of Master Oogway!
+- Slack of at work by looking at **4** astonishing images of Master Oogway!
 - Send your friends to the Spirit realm by being as Zen as the Master himself
 
 ## Installation
