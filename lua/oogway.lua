@@ -30,7 +30,8 @@ local wisdoms = {
     "Your mind is like this water, my friend. When it is agitated, it becomes difficult to see. But if you allow it to settle, the answer becomes clear.",
     "You are the master of your destiny: No one and nothing can come in between you and your destiny except you. Take destiny by the horns and have fun.",
     "On the first day we met, I saw the future of Kung fu and the past. I saw the panda who could unite them both. That is why I chose you, Po. Both sides of the Ying and Yang. And my true successor.",
-    "The true path to victory is to find your opponent’s weakness and make him suffer for it. And to take his strength and use it against him until he finally falls or quits."
+    "The true path to victory is to find your opponent’s weakness and make him suffer for it. And to take his strength and use it against him until he finally falls or quits.",
+    "Quit. Don't quit. Noodles. Don't noodles."
 }
 
 local oogways = {
