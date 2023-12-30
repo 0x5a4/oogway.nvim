@@ -70,3 +70,26 @@ require("zen-mode").setup({
 })
 
 ```
+
+### Using with `goolord/alpha-nvim`
+
+```lua
+local dashboard_theme = require("alpha.themes.dashboard")
+local oogway = require("oogway")
+dashboard_theme.footer.val = oogway.what_is_your_wisdom()
+dashboard_theme.header.val = oogway.inspire_me();
+
+require("alpha").setup(dashboard_theme.opts)
+```
+
+### Using with `nvimdev/dashboard-nvim`
+
+```lua
+local oogway = require("oogway")
+require("dashboard").setup({
+    config = {
+        header = vim.fn.split(oogway.inspire_me(), "\n"),
+        footer = { oogway.what_is_your_wisdom() },
+    }
+})
+```
