@@ -8,7 +8,7 @@ _Integrated into dashboard-nvim_
 
 ![standalone](https://github.com/0x5a4/oogway.nvim/assets/54070204/14d33a0d-d457-4e4a-8ca4-61b96845caee)
 
-_Standalone(uses vim.notify)
+_Standalone(uses vim.notify)_
 
 ## Features
 
