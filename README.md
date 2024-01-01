@@ -1,10 +1,14 @@
 # oogway.nvim
 
-_There are no accidents._
+_There are no accidents._  
 
-<div id="header" align="left">
-  <img src="https://media.giphy.com/media/5Ivz8uxHriaAw/giphy.gif" width="500"/>
-</div>
+![dashboard](https://github.com/0x5a4/oogway.nvim/assets/54070204/dbada5bb-f54b-4f9f-987c-6ed6d09278a4)
+
+_Integrated into dashboard-nvim_
+
+![standalone](https://github.com/0x5a4/oogway.nvim/assets/54070204/14d33a0d-d457-4e4a-8ca4-61b96845caee)
+
+_Standalone(uses vim.notify)
 
 ## Features
 
@@ -80,6 +84,7 @@ dashboard_theme.footer.val = oogway.what_is_your_wisdom()
 dashboard_theme.header.val = oogway.inspire_me();
 
 require("alpha").setup(dashboard_theme.opts)
+
 ```
 
 ### Using with `nvimdev/dashboard-nvim`
@@ -93,3 +98,8 @@ require("dashboard").setup({
     }
 })
 ```
+
+# Credits
+<div id="header" align="left">
+  <img src="https://media.giphy.com/media/5Ivz8uxHriaAw/giphy.gif" width="500"/>
+</div>
